@@ -1,6 +1,6 @@
 const hero_container = document.getElementById('hero-container');
 const token = '100349205219068';
-const hero_number = 10;
+const hero_number = 731;
 
 //Fetch all heroes
 const fetchHeros = async () => {
