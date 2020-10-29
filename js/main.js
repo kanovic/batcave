@@ -11,7 +11,7 @@ const fetchHeros = async () => {
 
 //Fetch single hero by id
 const getHero = async id => {
-  const url = `https://superheroapi.com/api/${token}/${id}`;
+  const url = `https://superheroapi.com/api.php/${token}/${id}`;
   const response = await fetch(url);
   const hero = await response.json();
 
