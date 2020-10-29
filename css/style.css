@@ -44,7 +44,7 @@ header {
 h1 {
   color: white;
   font-size: 70px;
-  margin: 30px;
+  margin-left: 20px;
 }
 
 .hero-container {
@@ -172,4 +172,10 @@ progress[value]::-webkit-progress-value {
     -webkit-linear-gradient(left, #1e74a0, #fde311);
 
   background-size: 35px 20px, 100% 100%, 100% 100%;
+}
+
+@media (max-width: 450px) {
+  h1 {
+    font-size: 50px;
+  }
 }
